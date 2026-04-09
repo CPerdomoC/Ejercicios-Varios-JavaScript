@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <img id="foto" src="https://i.blogs.es/74f2bd/red-dead-dedemption-2actor_-arthur-morgan/500_333.jpeg">
+    <button id="btn">Cambiar imagen</button>
+
+    <script>
+        document.getElementById("btn").addEventListener("click", function() {
+        const img = document.getElementById("foto");
+        img.src = "https://picsum.photos/200/150?random=" + Math.random();
+        });
+    </script>
+
+</body>
+</html>
