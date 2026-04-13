@@ -1,5 +1,4 @@
 # Christhian Perdomo Casanova
-Hola lo he editao yo(albertin)
 *Ejercicio 1*: Mostrar un mensaje al hacer clic
 -------------------------------------------------------------------------------------------------------------------------------
 Crea un botón con id "btn" y un párrafo con id "resultado". Al pulsar el botón, que el párrafo muestre: "¡Hola Clase!"
